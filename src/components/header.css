@@ -15,7 +15,7 @@
 }
 
 .nav > ul > li  > a{
-    @apply text-gray-800;
+    @apply text-gray-800 py-4;
 }
 
 .nav > ul > li  > a:hover,

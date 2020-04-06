@@ -17,16 +17,13 @@ const Header = ({ siteTitle }) => (
     <nav className="nav">
       <ul>
         <li>
-          <a href="#">Accueil</a>
+          <Link to="projets">Projets</Link>
         </li>
         <li>
-          <a href="#">Projets</a>
+          <Link to="services">Services</Link>
         </li>
         <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
+          <Link to="contact">Contact</Link>
         </li>
       </ul>
     </nav>

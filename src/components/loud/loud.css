@@ -1,0 +1,18 @@
+.loud{
+    @apply text-3xl leading-tight my-48;
+}
+@screen sm{
+    .loud{
+        @apply text-4xl;
+    }
+}
+@screen md{
+    .loud{
+        @apply text-5xl;
+    }
+}
+@screen lg{
+    .loud{
+        @apply text-6xl;
+    }
+}
