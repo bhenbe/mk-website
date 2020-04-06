@@ -25,3 +25,7 @@ footer{
 .btn:hover{
   @apply bg-blue-700;
 }
+
+.loud{
+  @apply text-6xl leading-tight my-48;
+}

@@ -1,0 +1,25 @@
+.site-header{
+    @apply flex justify-between text-lg py-4;
+}
+
+.nav{
+
+}
+
+.nav > ul{
+    @apply list-none flex;
+}
+
+.nav > ul > li{
+    @apply mr-8;
+}
+
+.nav > ul > li  > a{
+    @apply text-gray-800;
+}
+
+.nav > ul > li  > a:hover,
+.nav > ul > li  > a:active,
+.nav > ul > li  > a:focus{
+    @apply text-gray-800 underline;
+}
