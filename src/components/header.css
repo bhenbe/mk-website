@@ -15,11 +15,11 @@
 }
 
 .nav > ul > li  > a{
-    @apply text-gray-800 py-4;
+    @apply inline-block text-gray-900 py-4;
 }
 
 .nav > ul > li  > a:hover,
 .nav > ul > li  > a:active,
 .nav > ul > li  > a:focus{
-    @apply text-gray-800 underline;
+    @apply underline;
 }
