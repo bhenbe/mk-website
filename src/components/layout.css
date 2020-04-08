@@ -2,26 +2,24 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-h1{
-  @apply text-5xl font-bold;
+.site-wrapper{
+  @apply p-4;
 }
 
-h2{
-  @apply text-4xl font-bold;
+@screen sm{
+  .site-wrapper{
+    @apply p-6;
+  }
 }
 
-p{
-  @apply mt-4 mb-8;
+@screen md{
+  .site-wrapper{
+    @apply p-8;
+  }
 }
 
-footer{
-  @apply mt-8;
-}
-
-.btn{
-  @apply bg-blue-500 text-white font-semibold px-4 py-2 rounded;
-}
-
-.btn:hover{
-  @apply bg-blue-700;
+@screen lg{
+  .site-wrapper{
+    @apply p-12;
+  }
 }

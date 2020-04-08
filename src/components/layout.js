@@ -24,14 +24,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container mx-auto">
+    <div className="site-wrapper">
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()} Mediakod
         </footer>
       </div>
     </div>

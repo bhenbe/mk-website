@@ -1,18 +1,10 @@
 .loud{
-    @apply text-3xl leading-tight my-48;
+    @apply text-5xl leading-tight my-24;
 }
-@screen sm{
-    .loud{
-        @apply text-4xl;
-    }
-}
+
 @screen md{
     .loud{
-        @apply text-5xl;
-    }
-}
-@screen lg{
-    .loud{
-        @apply text-6xl;
+        @apply my-32;
+        font-size: calc(5rem + .4vw);
     }
 }
