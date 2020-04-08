@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import "./cardProject.css"
 import Image from "../image"
 
-const CardProject = (align) => {
+const CardProject = ({ align }) => {
   return (
-    <article className={"card-project " + (align === "right" ? "col-start-3 col-span-9" : "col-start-1 col-span-9")}>
+    <article className={"card-project " + (align === "right" ? "card-project--right" : "card-project--left")}>
       <Link 
         to="/"
       >

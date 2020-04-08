@@ -1,5 +1,6 @@
 .loud{
     @apply text-5xl leading-tight my-24;
+    max-width: 21ch;
 }
 
 @screen md{

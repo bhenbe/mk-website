@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Loud text="Votre transition digitale commence ici." />
-    <section className="grid-cols-12">
+    <section className="project-list">
       <CardProject align="right"></CardProject>
       <CardProject align="left"></CardProject>
     </section>

@@ -1,8 +1,31 @@
+.project-list{
+    @apply grid grid-cols-12 gap-4 grid-flow-row;
+}
+
 .card-project{
     @apply mb-8;
+}
+
+.card-project .gatsby-image-wrapper{
+    @apply mb-4;
 }
 
 .card-project h2,
 .card-project span{
     @apply m-0 text-base font-normal;
+}
+
+.card-project--left,
+.card-project--right{
+    @apply col-start-1 col-end-13;
+}
+
+@screen md{
+    .card-project--left{
+        @apply col-start-1 col-end-10;
+    }
+
+    .card-project--right{
+        @apply col-start-3 col-end-13;
+    }
 }
